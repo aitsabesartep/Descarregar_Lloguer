@@ -15,8 +15,8 @@ public class Descarregar_imatges {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        GET g = new GET("url-web");
-        Tractar_Resposta t = new Tractar_Resposta(g.getPage(), "Nom_carpeta");
+        GET g = new GET("https://www.exklusive-fincas-mallorca.de/objekt/son-mulet.html");
+        Tractar_Resposta t = new Tractar_Resposta(g.getPage(), "Son_Mulet");
     }
 
 }
